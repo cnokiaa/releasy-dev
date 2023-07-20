@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:background="@color/white">
+              
+    <ImageView
+        android:id="@+id/device_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        />
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp">
+        
+    <TextView android:id="@+id/device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_txt_374348"
+            android:textSize="20sp"
+            android:drawablePadding="2.5dp"
+            android:gravity="center_vertical"
+            android:drawableRight="@drawable/ic_rename"/>
+    <TextView android:id="@+id/device_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_txt_84ADBB"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/batteryTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/color_txt_9CB5BF"
+        android:textSize="15sp"/>
+    <ImageView
+        android:id="@+id/batteryImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"/>
+</LinearLayout>

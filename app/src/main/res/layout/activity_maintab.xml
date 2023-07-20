@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/page_background">
+              
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+    <FrameLayout
+            android:id="@+id/tab_content"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:background="@color/page_background"/>
+
+    <RadioGroup
+            android:id="@+id/tabs_rg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_bottom_bar"
+            android:gravity="center">
+        <RadioButton
+                android:id="@+id/tab_rb_reasy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_tab_releasy"
+                android:button="@null"
+                android:text="@string/relax_shop"
+                android:textColor="@color/color_bottom_nav_bar_text"
+                android:textSize="13sp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:singleLine="true"
+                android:checked="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+        <!-- <RadioButton
+                android:id="@+id/tab_rb_music"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_tab_music"
+                android:button="@null"
+                android:text="@string/music"
+                android:textColor="@color/color_bottom_nav_bar_text"
+                android:textSize="13sp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:singleLine="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                /> -->
+        <RadioButton
+                android:id="@+id/tab_rb_device"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_tab_device"
+                android:button="@null"
+                android:text="@string/device"
+                android:textColor="@color/color_bottom_nav_bar_text"
+                android:textSize="13sp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:singleLine="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+        <RadioButton
+                android:id="@+id/tab_rb_more"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_tab_more"
+                android:button="@null"
+                android:text="@string/other"
+                android:textColor="@color/color_bottom_nav_bar_text"
+                android:textSize="13sp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:singleLine="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+    </RadioGroup>
+    </LinearLayout>
+</LinearLayout>
+

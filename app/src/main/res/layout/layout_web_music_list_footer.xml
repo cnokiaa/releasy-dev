@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:padding="20dp">
+    
+    <LinearLayout
+        android:id="@+id/footerLoadingLayout"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/footerLoadingTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" 
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/loading_music"
+            android:textColor="@color/color_add_device_btn_txt"
+            android:background="@drawable/btn_list_footer"
+            />
+        
+        <LinearLayout
+            android:id="@+id/footerProgressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/bg_list_footer_btn_normal">
+            <ProgressBar
+                android:id="@+id/footerProgressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleSmall"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loading"
+                android:textSize="16sp"
+                android:textColor="@color/color_txt_888888"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/footerNotDataTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" 
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/music_not_data"
+            android:textColor="@color/color_txt_888888"
+            android:background="@drawable/bg_list_footer_btn_normal"
+            />
+    </LinearLayout>
+
+</LinearLayout>

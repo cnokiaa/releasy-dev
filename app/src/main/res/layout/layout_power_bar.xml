@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="7.5dp"
+    android:paddingRight="7.5dp">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:paddingLeft="2.5dp"
+        android:paddingRight="2.5dp"
+        android:gravity="center_vertical">
+        <!-- android:background="@drawable/bg_power_bar" -->
+        
+        <ImageView
+            android:id="@+id/subtractImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_subtract_power"
+            android:layout_margin="5dp"/>
+        
+        <RelativeLayout 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center">
+                
+                <ImageView
+                    android:id="@+id/power1Img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power_1_pressed"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/power2Img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power_2_normal"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/power3Img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power_3_normal"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/power4Img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power_4_normal"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/power5Img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power_5_normal"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/power6Img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power_6_normal"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/power7Img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power_7_normal"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/power8Img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power_8_normal"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/power9Img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power_9_normal"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/power10Img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power_10_normal"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/power_bar_txt"
+                    android:text="@string/low"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:textColor="@color/power_bar_txt"
+                    android:text="@string/middle"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/power_bar_txt"
+                    android:text="@string/high"/>
+            </LinearLayout>
+        
+        </RelativeLayout>
+        
+        <ImageView
+            android:id="@+id/addImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_add_power"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_power_bar_txt"
+        android:text="@string/power_updata"
+        android:textColor="@color/power_bar_txt"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+

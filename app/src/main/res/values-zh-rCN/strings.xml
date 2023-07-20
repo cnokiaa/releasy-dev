@@ -1,0 +1,265 @@
+<resources>
+
+<!--    <string name="app_name">摩也放松馆</string>-->
+    <string name="app_name">Relax Place</string>
+
+    <string name="menu_settings">Settings</string>
+
+    
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    
+    <string name="unknown_device">Unknown device</string>
+    <string name="privacy_title">服务协议和隐私政策</string>
+
+    <string name="network_anomaly">网络异常</string>	
+    <string name="privacy_agree">同意</string>
+    <string name="privacy_disagree">不同意</string>
+
+    <string name="please_fill_in_the_note_name">请填写备注名</string>	
+    <string name="note_name_length_not_more_than_8">备注名长度不能超过8位</string>	
+    
+    <string name="input_phone_num">请输入手机号码</string>
+    <string name="register">进&#160;&#160;入</string>
+    <string name="phone_num_null">请输入手机号码</string>
+    <string name="pls_edit_accurate_phone_num">请输入准确的电话号码!</string>
+    <string name="device_list_sliding">设备列表项左滑会出现菜单哦!</string>
+    
+    <string name="closing_device">正在关闭设备,请稍后...</string>
+    <string name="doing">正在运行</string>
+    <string name="end_massage">按摩已结束</string>
+    <string name="device_closed_or_not">设备已关闭或连接不上!</string>
+    <string name="del_device">移除设备</string>
+    <string name="del_runing_device">正处在运行状态,移除设备会停止动作,确定要移除设备么?</string>
+    <string name="close_success_device">关闭成功!</string>
+    <string name="are_connected_devices">正在向设备发送指令，请稍后...</string>
+    <string name="please_try_restart_ble">请尝试重启蓝牙后再使用。</string>
+    <string name="piracy_devices">为盗版设备,请支持正版。移除盗版设备后再进行使用</string>
+    <string name="currently_no_device">当前没有匹配到设备</string>
+    <string name="connection_is_broken">连接断开!</string>
+    <string name="modify_the_note_name">修改备注名称</string>
+
+    
+    <string name="prompt">提示</string>
+    <string name="prompt_sdk23">Android6.0系统蓝牙扫描功能需要开启位置服务才能使用,否则搜索不到设备,请打开定位服务！</string>
+    <string name="rename">改名</string>
+    <string name="updata_app_title">软件升级</string>
+    <string name="updata">更新</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="confirm">确定</string>
+    <string name="unknow">未知</string>
+    <string name="device">设备</string>
+    <string name="connect_failure">连接失败!</string>
+    <string name="device_connect_failure">设备连接失败!</string>
+    <string name="close">关机</string>
+    <string name="share">分享</string>
+    
+    <string name="relax_shop">放松馆</string>
+    <string name="music">音乐</string>
+    <string name="music_title">音&#160;乐</string>
+    <string name="device_title">设&#160;备</string>
+    <string name="other">其他</string>
+    <string name="other_title">其&#160;他</string>
+    
+    <string name="room_can_not_delete">为官方放松馆,不能删除!</string>
+    <string name="del_room_dialog_msg_start">确定要删除放松馆&#160;</string>
+    <string name="del_room_dialog_msg_end">&#160;么?</string>
+    <string name="low">低</string>
+    <string name="middle">中</string>
+    <string name="high">高</string>
+    <string name="power_updata">力度调整</string>
+    <string name="add_new_shop">添加新馆</string>
+    <string name="save">保存</string>
+    <string name="input_shop_name">请输入馆名称</string>
+    <string name="select_pic">选择图片</string>
+    <string name="select_music">选择音乐</string>
+    <string name="no_select_music">当前还没有选择乐音!</string>
+    <string name="no_select_pic_toast">请先选择图片!</string>
+    <string name="no_select_music_toast">请先选择乐音!</string>
+    <string name="set_device_action">设置设备模式</string>
+    <string name="base_action">基础动作</string>
+    <string name="scene_action">场景</string>
+    <string name="pls_selsct_action">请选择按摩动作!</string>
+    <string name="pls_stop_action_re_edit">请先停止按摩再编辑!</string>
+    <string name="connect_failure_start">设备&#160;</string>
+    <string name="connect_failure_end">&#160;连接超时。 可能由于设备距离过远,设备电量不足,或者没有开启导致。</string>
+    
+    <string name="local_music">本地音乐</string>
+    <string name="on_line_music">乐&#160;库</string>
+    <string name="local_music_no_music_start">音乐空空如也</string>
+    <string name="local_music_no_music_end">你可以到乐库下载你喜欢的音乐!</string>
+    <string name="sdcard_error">没有SD卡</string>
+    <string name="downloaded">已下载</string>
+    <string name="loading_music">加载更多音乐</string>
+    <string name="music_not_data">已经没有更多音乐了</string>
+    <string name="loading_failure">加载失败!</string>
+    <string name="loading">正在加载...</string>
+    
+    <string name="address">地址:&#160;</string>
+    <string name="add_device">添加新设备</string>
+    <string name="devices_max_4">最多绑定4个设备</string>
+    <string name="devices_max_1">最多绑定1套设备</string>
+    <string name="search_device">搜索设备</string>
+    <string name="searching">搜索中…</string>
+    <string name="devices_num_0">请先选择需要绑定的设备</string>
+    <string name="search_result_txt_start">发现&#160;</string>
+    <string name="search_result_txt_end">&#160;台设备</string>
+    <string name="search_end">没有发现新设备\n请重新搜索</string>
+    <string name="test">测试</string>
+    
+    <string name="mobile_phone_binding">手机绑定</string>
+    <string name="faq">常见问题</string>
+    <string name="feedback">意见反馈</string>
+    <string name="authority_web">官方网站</string>
+    <string name="about">关于</string>
+    <string name="about_title">关&#160;于</string>
+    <string name="change">更改</string>
+    <string name="bind_phone_num_txt">你绑定的手机号码:</string>
+    <string name="bind_phone_success">改绑成功!</string>
+    <string name="seed">发送</string>
+    
+    <string name="share_app">分享应用</string>
+    <string name="updata_app">版本检测</string>
+    <string name="latest_version">当前为最新版本!</string>
+    <string name="about_copyright">深圳市忘忧草科技有限公司  版权所有</string>
+    <string name="medisana_joint_development">&#160;联合开发</string>
+    
+    <string name="click_to_select_music">点击选择喜欢的音乐</string>
+    <string name="retrieving_version">正在获取版本信息,请稍等...</string>
+    <string name="submitting_data">正在提交数据,请稍等...</string>
+    <string name="again_to_exit">再按一次退出程序</string>
+
+    <string name="classic">经典模式</string>
+    <string name="physiotherapy">中医理疗</string>
+    <string name="zen">禅.道</string>
+    <string name="home">宅印象</string>
+    <string name="office">办公室</string>
+    <string name="seaside">听潮</string>
+    <string name="valley">空谷</string>
+    <string name="on_the_way">在路上</string>
+    <string name="taking_a_nap">小憩</string>
+    <string name="travel">旅行</string>
+    
+    <string name="knead">揉</string>
+    <string name="press">按</string>
+    <string name="squeeze">挤</string>
+    <string name="stroke">抚</string>
+    <string name="elbow">肘</string>
+    <string name="beat">捶</string>
+    <string name="massage">推拿</string>
+    <string name="scraping">刮痧</string>
+    <string name="cupping_jar">火罐</string>
+    <string name="acupuncture">针灸</string>
+    
+    <string name="user_defined">自定义</string>
+    <string name="initial_time">30:00 </string>
+    <string name="personal_information">个人信息</string>
+    <string name="user_record">使用记录 </string>
+    <string name="improve_personal_information">完善个人信息 </string>
+    <string name="please_choose_your_gender">请选择您的性别</string>
+    <string name="next_step">下一步</string>
+    <string name="last_step">上一步</string>
+    <string name="please_choose_your_date_of_birth">请选择您的出生日期</string>
+    <string name="year">年 </string>
+    <string name="month">月 </string>
+    <string name="day">日 </string>
+    <string name="please_choose_your_height">请选择您的身高</string>
+    <string name="please_choose_your_weight">请选择您的体重</string>
+    <string name="please_enter_your_phone_number">请输入你的手机号</string>
+    <string name="please_enter_your_email">请输入你的邮箱</string>
+    <string name="complete">完成</string>
+    <string name="phone_number">手机号</string>
+    <string name="email">邮箱</string>
+    <string name="sex">性别</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="age">生日</string>
+    <string name="height">身高</string>
+    <string name="weight">体重</string>
+    <string name="body_fat">体脂</string>
+    <string name="shoulder">肩膀</string>
+    <string name="back">背部</string>
+    <string name="loin">腰部</string>
+    <string name="arm">手臂</string>
+    <string name="thigh">大腿</string>
+    <string name="shank">小腿</string>
+    <string name="please_select_your_device">请选择你的设备</string>
+    <string name="mooyee_m1">智能按摩器&#160;M1</string>
+    <string name="mooyee_m2">智能按摩器&#160;M2</string>
+    <string name="choice_device">选择设备</string>
+    <string name="please_select_the_m2_a">请先选择智能按摩器&#160;M2&#160;主机</string>
+    <string name="please_select_the_m2_b">请先选择智能按摩器&#160;M2&#160;副机</string>
+    <string name="free_combination">自由组合</string>
+    <string name="expression_recognition">表情识别</string>
+    <string name="recognition_of_emotion">识别表情中...</string>
+    <string name="pls_selsct_action_txt">选择动作</string>
+    <string name="not_affixed_to_the_body">没有贴在身上</string>
+    <string name="no_device_attached_to_the_body">设备没有贴在身体上\n请贴上后再开始使用</string>
+    <string name="no_device_connect">设备全部断开连接\n请检测设备状况</string>
+    <string name="calm">平静</string>
+    <string name="fear">害怕</string>
+    <string name="get_angry">生气</string>
+    <string name="happy">开心</string>
+    <string name="sad">忧愁</string>
+    <string name="sentimental">伤感</string>
+    <string name="no_user_record_txt">没有使用记录</string>
+    <string name="use_details">使用详情</string>
+    <string name="update_success">更新成功</string>
+    <string name="skip">跳过</string>
+    <string name="user_skip_prompt">我们希望能得到您的一些个人信息，以便我们今后能给您提供更好的、个性化的按摩服务。我们承诺保证您的所有信息安全。\n\n您确定要跳过吗？</string>
+    
+    <string name="exit">退出</string>
+    <string name="exit_msg">设备正在运行中，退出程序设备将会停止运行，是否确认退出程序？</string>
+    
+    
+    <string name="medisana_m2_a_name">Medisana 主机</string>
+    <string name="medisana_m2_b_name">Medisana 副机</string>
+    
+    
+    <string name="gps_permission_title">权限未设置</string>
+    <string name="gps_permission_msg">在系统设置中找到应用程序权限管理，在App列表中找到【摩也放松馆】，然后打开定位权限。您需要打开定位权限，才可以搜索到设备。</string>
+    <string name="music_permission_title">权限未设置</string>
+    <string name="music_permission_msg">在系统设置中找到应用程序权限管理，在App列表中找到【摩也放松馆】，然后打开多媒体权限。您需要打开多媒体权限，才可以读取到音乐。</string>
+    
+    <string name="faq_q_1">如何绑定设备？</string>
+    <string name="faq_a_1">→ 在主界面点击底部菜单的「设备」，进入设备管理界面。 \n→ 点击「添加新设备」。 \n→ 选择您所持有的设备进行搜索，在搜索出的设备列表中选中一个或多个设备后点击「测试」(M1最多可绑定4台设备，M2需要绑定1台主机和1台副机)，运行呼吸灯出现闪烁(如果设备已经贴在身上，身体会感觉到轻微的按摩动作)，则表示这是您当前选定的设备。 \n→ 点击右上角的确定按钮即可绑定设备。 \n→ 返回主界面后，点击「放松馆」，选取您想要的放松方式，开始放松之旅。</string>
+    
+    <string name="faq_q_2">如何解绑设备？</string>
+    <string name="faq_a_2">点击底部菜单的「设备」进入设备管理界面，向左划动想要删除的设备栏，点击「删除」。</string>
+    
+    <string name="faq_q_3">如何通过手机关闭放松器？</string>
+    <string name="faq_a_3">点击底部菜单的「设备」进入设备管理界面，向左划动想要关闭的设备栏，点击「关机」，设备指示灯熄灭，表示设备已关闭。</string>
+    
+    <string name="faq_q_4">如何进行运行界面的设定？</string>
+    <string name="faq_a_4">→ 点击某个放松馆进入运行界面。 \n→ 在拥有多种按摩动作的放松馆，可以左右滑动或点击动作选项卡切换按摩动作。 \n→ 点击力度条左右的「＋」「—」号调整力度。 \n→ 点击右上角的唱片选择音乐。 \n→ 点击最下方的按钮开始或暂停按摩。</string>
+    
+    <string name="faq_q_5">「自由组合」放松馆详解</string>
+    <string name="faq_a_5">「自由组合」放松馆为智能按摩器M2专属的放松馆，可以为主机和副机选择不同的按摩动作(比如主机贴在肩膀选择「锤」，副机贴在腰上选择「肘」)和不同的力度，是一种全新的按摩体验。\n在「自由组合」放松馆中，左边的控制器控制主机，右边的控制器控制副机，点击控制器的上半部分可以选择按摩动作，在控制器的下半部分可以调整力度，选择完成后点击最下方的按钮开始或停按摩。</string>
+    
+    <string name="faq_q_6">出现「设备断开连接」应该怎么办？</string>
+    <string name="faq_a_6">除了主动关闭设备，设备断开连接一般有两种原因：\n蓝牙断开：蓝牙信号不稳定或者手机距离设备超过蓝牙有效距离（半径10米左右）会导致设备断开，这种情况下不用进行任何操作，待蓝牙信号稳定或进入蓝牙有效距离后，继续操作即可。您也可以手动在设备管理页面点击该设备栏重新连接。\n设备电量过低：通常设备电量低于10%时会导致设备无法有效运行，经常断开连接，此时应给设备充电后才能使用。</string>
+    
+    <string name="faq_q_7">APP在运行而身体已经感觉不到按摩动作是什么情况导致的？怎么办？</string>
+    <string name="faq_a_7">通常设备电量低于10%会导致这种情况，这时候需要给设备充电后才能使用。</string>
+    
+    <string name="faq_q_8">设备休眠后该怎样激活？</string>
+    <string name="faq_a_8">设备待机超过30分钟后，为节省电量，会自动休眠。休眠时的设备无法被搜索和控制。\n\n这时需要将两片主机合上，1秒后再分开，即可激活设备，指示灯点亮。若指示灯处于熄灭状态，可能设备电量不足，需要充电。</string>
+    
+    <string name="faq_q_9">出现设备死机的情况怎么办？</string>
+    <string name="faq_a_9">这种情况发生的几率非常小，在此情况下，可用针状物轻捅重置按钮使设备恢复出厂设置，设备即可重新正常工作。</string>
+    
+    <string name="faq_q_10">按摩的时候突然有针刺般的感觉，是怎么回事？</string>
+    <string name="faq_a_10">因为个人的体质不同，以及人在不同的精神状态下身体的敏感度不同，所以对脉冲的感觉也不尽相同。如果感觉到刺痛，应该立刻停止，换个时间再进行。如果您还想继续按摩，请改变设备的贴放位置，直到您不再有针刺感。\n大多数情况下都是由于贴片粘性不够导致的刺痛感，则应该更换贴片或或用水冲洗贴片并晾干后再进行按摩。</string>
+    
+    <string name="faq_q_11">设备贴在什么位置按摩效果好？</string>
+    <string name="faq_a_11">最佳位置：肩部、背部。次佳位置：臂部、腿部。忌贴部位：头颈部、胸腹部和其它敏感部位。</string>
+    
+    <string name="faq_q_12">关于贴片</string>
+    <string name="faq_a_12">智能按摩器专用贴片采用日本进口水凝胶，接近0电阻，可确保按摩力度输出流畅，分布均匀。贴片质地薄软，贴附紧密，使用舒适、安全，无刺痛兼具水洗功能。有抗过敏，抗汗性，不变色，适用于各种肤质。\n\n通常一幅贴片可重复使用50次左右，贴片弄脏可使用湿巾或少量清水清洗，晾干后可继续使用，如果无法恢复粘性，需要更换新的贴片。</string>
+    
+    <string name="faq_q_13">忌用人群</string>
+    <string name="faq_a_13">儿童、孕妇、心脏病患者。</string>
+    
+    
+</resources>

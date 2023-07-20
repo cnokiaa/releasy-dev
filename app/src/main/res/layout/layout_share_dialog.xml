@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:gravity="top">
+    
+    <RelativeLayout
+        android:id="@+id/dialogLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        
+        <LinearLayout
+            android:id="@+id/infoLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_share_dialog"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/shareIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_share_good"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:id="@+id/shareIconTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/color_txt_e37600"
+                />
+            <TextView
+                android:id="@+id/shareContentTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/color_txt_7f7f7f"
+                />
+        </LinearLayout>
+        
+        <Button
+             android:id="@+id/shareBtn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="18sp"
+             android:text="@string/share"
+             android:background="@drawable/btn_share"
+             android:textColor="@color/white"
+             android:gravity="center"
+             android:layout_below="@+id/infoLayout"
+            />
+        
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/closeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_share_close"
+        />
+
+</FrameLayout>

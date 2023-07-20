@@ -1,0 +1,287 @@
+<resources>
+
+    <string name="app_name">Relax Place</string>
+<!--    <string name="app_name">MOOYEE</string>-->
+
+    
+    <string name="menu_settings">Settings</string>
+    <string name="privacy_title">Service Agreement and Privacy Policy</string>
+
+    <string name="privacy_agree">に同意</string>
+    <string name="privacy_disagree">同意しない</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    
+    <string name="unknown_device">Unknown device</string>
+
+    <string name="network_anomaly">ネットワーク異常</string>	
+    
+    <string name="please_fill_in_the_note_name">デバイス名を入力してください</string>	
+    <string name="note_name_length_not_more_than_8">名前は最大8文字までです</string>	
+    
+    <string name="input_phone_num">携帯番号を入力してください</string>
+    <string name="register">サインイン</string>
+    <string name="phone_num_null">携帯番号を入力してください</string>
+    <string name="pls_edit_accurate_phone_num">携帯番号を正しく入力してください！</string>
+    <string name="device_list_sliding">画面を左にスライドしてメニューが表示されます</string>
+    
+    <string name="closing_device">デバイスをシャットダウンする</string>
+    <string name="doing">動作中</string>
+    <string name="end_massage">マッサージが完了しました</string>
+    <string name="device_closed_or_not">デバイスはシャットダウンされました、または接続できません。</string>
+    <string name="del_device">デバイスを削除します</string>
+    <string name="del_runing_device">動作中、削除するとデバイスが停止しますので、ご確認をお願いします</string>
+    <string name="close_success_device">シャットダウンしました</string>
+    <string name="are_connected_devices">機器にコマンドを送信しています、しばらくお待ちください...</string>
+    <string name="please_try_restart_ble">Bluetoothを再起動してしてもう一度お試しください。</string>
+    <string name="piracy_devices">海賊版です。正規品を購入してください。海賊版のデバイスを取り除いてからご使用ください。</string>
+    <string name="currently_no_device">現在登録および共有デバイスがありません</string>
+    <string name="connection_is_broken">接続が切られました</string>
+    <string name="modify_the_note_name">名前を変更します</string>
+
+    
+    <string name="prompt">提示</string>
+    <string name="prompt_sdk23">Bluetooth接続は、位置情報サービスが有効になっている必要があります。</string>
+    <string name="rename">改名</string>
+    <string name="updata_app_title">アプリアップデート</string>
+    <string name="updata">アップデート</string>
+    <string name="cancel">キャンセル</string>
+    <string name="delete">削除</string>
+    <string name="confirm">確認</string>
+    <string name="unknow">不明</string>
+    <string name="device">デバイス</string>
+    <string name="connect_failure">接続は失敗しました</string>
+    <string name="device_connect_failure">デバイスの接続が失敗しました</string>
+    <string name="close">シャットダウン   </string>
+    <string name="share">シェア</string>
+    
+    <string name="relax_shop">リラックスルーム</string>
+    <string name="music">音楽</string>
+    <string name="music_title">音&#160;楽</string>
+    <string name="device_title">設&#160;備</string>
+    <string name="other">その他</string>
+    <string name="other_title">その他</string>
+    
+    <string name="room_can_not_delete">公式のリラックスルームは、削除することはできません。</string>
+    <string name="del_room_dialog_msg_start">リラックスルームを削除</string>
+    <string name="del_room_dialog_msg_end">&#160;?</string>
+    <string name="low">低</string>
+    <string name="middle">中</string>
+    <string name="high">高</string>
+    <string name="power_updata">強度の調節</string>
+    <string name="add_new_shop">新しいルームを追加します</string>
+    <string name="save">保存</string>
+    <string name="input_shop_name">ルームの名前を入力してください</string>
+    <string name="select_pic">写真を選んでください</string>
+    <string name="select_music">音楽を選んでください</string>
+    <string name="no_select_music">音楽は選択されていません</string>
+    <string name="no_select_pic_toast">まず写真を選んでください</string>
+    <string name="no_select_music_toast">まず音楽を選んでください</string>
+    <string name="set_device_action">マッサージモードを設定してください</string>
+    <string name="base_action">基本的なマッサージ動作</string>
+    <string name="scene_action">環境におけるマッサージ動作</string>
+    <string name="pls_selsct_action">マッサージ動作を選択してください</string>
+    <string name="pls_stop_action_re_edit">マッサージ動作を止めてから編集してください</string>
+    <string name="connect_failure_start">ご使用の端末とデバイス&#160;</string>
+    <string name="connect_failure_end">&#160;の接続タイムアウトが発生しました。原因は、設備が携帯から遠すぎる、或は電力不足、または設備が起動していないとなります。</string>
+    
+    <string name="local_music">ダウンロードした音楽</string>
+    <string name="on_line_music">オンライン音楽</string>
+    <string name="local_music_no_music_start">音楽がありません</string>
+    <string name="local_music_no_music_end">オンライン音楽からお好きな音楽をダウンロードすることができます</string>
+    <string name="sdcard_error">SDカードがありません</string>
+    <string name="downloaded">ダウンロード完了</string>
+    <string name="loading_music">より多くの音楽を読み込み中です</string>
+    <string name="music_not_data">音楽がありません</string>
+    <string name="loading_failure">読み込みに失敗しました</string>
+    <string name="loading">読み込み中...</string>
+    
+    <string name="address">アドレス：&#160;</string>
+    <string name="add_device">新しいデバイスを追加します</string>
+    <string name="devices_max_4">最大四つのデバイスをバインドすることができます</string>
+    <string name="devices_max_1">最大1セットのデバイスを接続することができます</string>
+    <string name="search_device">デバイスを検索します</string>
+    <string name="searching">検索中…</string>
+    <string name="devices_num_0">まずバインドするのデバイスを選択してください</string>
+    <string name="search_result_txt_start">発見&#160;</string>
+    <string name="search_result_txt_end">&#160;台デバイス</string>
+    <string name="search_end">新しいデバイスが見つかりません、再検索してください。</string>
+    <string name="test">テスト</string>
+    
+    <string name="mobile_phone_binding">携帯番号をバインドする</string>
+    <string name="faq">よくあるご質問</string>
+    <string name="feedback">フィードバック</string>
+    <string name="authority_web">公式サイト</string>
+    <string name="about">About</string>
+    <string name="about_title">About</string>
+    <string name="change">変更</string>
+    <string name="bind_phone_num_txt">携帯番号を追加：</string>
+    <string name="bind_phone_success">変更完了</string>
+    <string name="seed">送信</string>
+    
+    <string name="share_app">アプリを共有する</string>
+    <string name="updata_app">バージョン情報を検出する</string>
+    <string name="latest_version">現在のバージョンは最新です</string>
+    <string name="about_copyright">深セン市忘忧草科技有限会社 著作権所有</string>
+    <string name="medisana_joint_development">&#160;共同開発</string>
+    
+    <string name="click_to_select_music">お好みの音楽をクリックして選んでください。</string>
+    <string name="retrieving_version">バージョン情報検索中、少々お待ち下さい…</string>
+    <string name="submitting_data">データを送信しています。しばらくお待ちください...</string>
+    <string name="again_to_exit">もう一度クリックしてプログラムから脱退します</string>
+
+    <string name="classic">クラシックモード</string>
+    <string name="physiotherapy">漢方療法</string>
+    <string name="zen">禪</string>
+    <string name="home">ホーム</string>
+    <string name="office">オフィス</string>
+    <string name="seaside">海浜</string>
+    <string name="valley">谷間</string>
+    <string name="on_the_way">休暇中</string>
+    <string name="taking_a_nap">小憩</string>
+    <string name="travel">旅行</string>
+    
+    <string name="knead">揉む</string>
+    <string name="press">押す</string>
+    <string name="squeeze">絞る</string>
+    <string name="stroke">撫でる</string>
+    <string name="elbow">肘</string>
+    <string name="beat">たたく</string>
+    <string name="massage">マッサージ</string>
+    <string name="scraping">かっさ</string>
+    <string name="cupping_jar">カッピング</string>
+    <string name="acupuncture">鍼灸</string>
+    
+    <string name="user_defined">カスタマイズ</string>
+    <string name="initial_time">30:00 </string>
+    <string name="personal_information">個人情報</string>
+    <string name="user_record">使用記録 </string>
+    <string name="improve_personal_information">個人情報を完備します </string>
+    <string name="please_choose_your_gender">性別を選択してください。</string>
+    <string name="next_step">次へ</string>
+    <string name="last_step">戻ります</string>
+    <string name="please_choose_your_date_of_birth">生年月日を選択してください</string>
+    <string name="year">年 </string>
+    <string name="month">月 </string>
+    <string name="day">日 </string>
+    <string name="please_choose_your_height">身長を選択してください</string>
+    <string name="please_choose_your_weight">体重を選択してください</string>
+    <string name="please_enter_your_phone_number">携帯番号を入力してください</string>
+    <string name="please_enter_your_email">Eメールアドレスを入力してください</string>
+    <string name="complete">完了</string>
+    <string name="phone_number">携帯番号</string>
+    <string name="email">Eメールアドレス</string>
+    <string name="sex">性別</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="age">誕生日</string>
+    <string name="height">身長</string>
+    <string name="weight">体重</string>
+    <string name="body_fat">体脂肪</string>
+    <string name="shoulder">肩</string>
+    <string name="back">背中 </string>
+    <string name="loin">腰</string>
+    <string name="arm">腕</string>
+    <string name="thigh">太もも </string>
+    <string name="shank">すね</string>
+    <string name="please_select_your_device">デバイスを選んでください</string>
+    <string name="mooyee_m1">M1</string>
+    <string name="mooyee_m2">M2</string>
+    <string name="choice_device">デバイスを選んでください</string>
+    <string name="please_select_the_m2_a">M2の本体「主」を選んでください</string>
+    <string name="please_select_the_m2_b">M2の本体「副」を選んでください</string>
+    <string name="free_combination">任意の組み合わせ</string>
+    <string name="expression_recognition">気分認識</string>
+    <string name="recognition_of_emotion">気分認識中...</string>
+    <string name="pls_selsct_action_txt">マッサージ動作を選びます   </string>
+    <string name="not_affixed_to_the_body">ゲルパッドを体に付けていないです</string>
+    <string name="no_device_attached_to_the_body">ゲルパッドを体に付けていないです、ゲルパッドがを体に貼り付けてから起動します。</string>
+    <string name="no_device_connect">接続が切断されている、デバイスの状態を確認してください。</string>
+    <string name="calm">冷静</string>
+    <string name="fear">恐怖</string>
+    <string name="get_angry">怒り</string>
+    <string name="happy">快適</string>
+    <string name="sad">憂鬱</string>
+    <string name="sentimental">悲しみ</string>
+    <string name="no_user_record_txt">使用記録がありません</string>
+    <string name="use_details">使用の詳細</string>
+    <string name="update_success">アップデート完了</string>
+    <string name="skip">スキップ</string>
+    <string name="user_skip_prompt">今後より良い商品・サービスを提供するため、ご使用者さまに関する必要最小限の個人情報を取得させていただきます。\n\nMOOYEEはご提供いただく個人情報の保護に全力を尽くすことをお約束します。？</string>
+    
+    <string name="exit">脱退する</string>
+    <string name="exit_msg">デバイスは実行中で、終了プログラムを終了し、終了プログラムを確認しますか？</string>
+    
+    <string name="gps_permission_title">権限設定のお願い</string>
+    <string name="gps_permission_msg">mooyee本体とペアリングするためにスマートフォンの設定を変更してください。システム＞アプリと通知＞アプリ＞アプリ一覧からmooyee＞権限＞位置情報を許可してください。</string>
+    <string name="music_permission_title">権限設定のお願い</string>
+    <string name="music_permission_msg">システム設定でアプリケーションの権限管理を見つけ、Appリストで「摩也リラックス館」を見つけ、マルチメディア権限を開く。マルチメディアの権限を開き、音楽を読み取ることができます。</string>
+    
+    
+    <string name="medisana_m2_a_name">Medisana 本体(主)</string>
+    <string name="medisana_m2_b_name">Medisana 本体(副)</string>
+    
+    
+    
+    <string name="faq_q_1">MOOYEEを接続するには、どうすればいいですか？</string>
+    <string name="faq_a_1">→ホストインタフェース\n→デバイス\n→新しいデバイスを追加する\n
+                           →検索（M2は本体「主」と本体「副」を同時に選択するの必要があります）\n
+                           →テスト（LEDランプが点滅して、軽くマッサージします）\n
+                           →バインド\n→ホストインタフェースに戻る\n→モードを選んでマッサージを始めます。</string>
+    
+    <string name="faq_q_2">接続を切断またはペアを解除するには、どうすればいいですか？</string>
+    <string name="faq_a_2">メニューの下部にある「デバイス」をクリックして、左にスワイプして「削除」を選択します。</string>
+    
+    <string name="faq_q_3">スマホでMOOYEEをオフにする方法？</string>
+    <string name="faq_a_3">メインメニューの「MOOYEE」をクリックして、左にスワイプして「オフ」を選択します。 LEDが消灯すると電源がオフになります。</string>
+    
+    <string name="faq_q_4">マッサージ動作を設定する方法？</string>
+    <string name="faq_a_4">→マッサージタイプを選択してください。\n→画面をスライドしてマッサージタイプを変更します。\n
+                           →「+」と「-」をクリックして強度を調節します。\n→ディスクアイコンをクリックして音楽を設定します。\n
+                           →開始/一時停止をクリックして切り替えることができます。</string>
+    
+    <string name="faq_q_5">「自由な組み合わせ」リラックスルーム説明</string>
+    <string name="faq_a_5">「自由な組み合わせ」リラックスルームは摩也リラックスルームM2専用の機能です。ホスト設備と副設備は違うマッサージアクションと力を選択することができます。（ホスト設備が肩につくとき「たたく」を選んで、副設備が腰につくとき「ひじ」を選びます）全く新しいマッサージ体験です。「自由な組み合わせ」リラックスルームでは左のコントローラはホスト設備を制御して、右のコントローラは副設備を制御します。コントローラの上の部分をクリックしてマッサージアクションを選択することができます。コントローラの下の部分は力の大きさを調整します。選択完了したあと一番下のボタンをクリックして開始または一時停止はできます。
+                            \n任意の組み合わせ
+                            \n「任意の組み合わせ」機能はM2のみサポートしています。本体(主)と本体(副)が同時に異なるマッサージモードを動作することができます。 例えば、手首には "肘"、肩には "たたく"を使用できます。
+                            \n「任意の組み合わせ」の使い方は、画面の左側が本体(主)を操作し、画面の右側が本体(副)を操作します。画面の下部に「+」と「-」をクリックして強度を調節します。開始/一時停止をクリックして切り替えることができます。</string>
+    
+    <string name="faq_q_6">接続設定がうまくできない場合はどうすればいいですか？ </string>
+    <string name="faq_a_6">原因：
+                           \n1、本体とスマホ端末との距離が離れすぎる、または障害物があります。
+                           \n2、残量が不十分な可能性があります。 
+                           \n3、近隣のほかの電波干渉が与える。
+                           \n\n対策：
+                           \n1、スマホ端末と本体とは、見通し距離約10m以内で接続してください。または壁、金属などの障害物を避けてください。
+                           \n2、本体の電量が20%以上のことを確保ください。</string>
+    
+    <string name="faq_q_7">刺激を感じないの場合はどうすばいいですか？</string>
+    <string name="faq_a_7">この状況は充電が不十分また電池が消耗しているです、充電してください。</string>
+    
+    <string name="faq_q_8">休眠る設備をどのように起動しますか?</string>
+    <string name="faq_a_8">装置は30分以上待機し、電力を節約するために自動的に休眠する。休眠時の装置は検索・制御されない。\n\nこの場合は、2枚のホストを合わせて1秒後に分離して、装置を作動させ、表示灯を点灯させる必要がある。ランプが消灯状態にある場合、電力量が不足している可能性があり、充電が必要である。</string>
+    
+    <string name="faq_q_9">MOOYEEが完全に停止したらどうしますか？</string>
+    <string name="faq_a_9">針でリセットしてください</string>
+    
+    <string name="faq_q_10">使用中には針で刺すような痛みが感じます</string>
+    <string name="faq_a_10">身体と粘着パッドの接触不良の可能性があります。 本体の電源を切り、粘着パッドが皮膚にしっかりと貼り付いているか確認して再度使用してください。もしゲルパッドの粘着面が汚れていると少量の水で軽く洗ってください。</string>
+    
+    <string name="faq_q_11">ゲルパッドがどこに貼るのが一番効果的なのでしょうか？</string>
+    <string name="faq_a_11">最適位置
+                            \n肩、背、腰、腕、ふくらはぎ、太もも
+                            \n\n下記の位置に使用しないでください
+                            \n頭部、頸部、胸部、腹部</string>
+    
+    <string name="faq_q_12">ゲルパッドについて</string>
+    <string name="faq_a_12">ゲルパッドは、ハイドロゲル技術を採用しており、抵抗値はほぼゼロです。電気が均一に高精度で体に伝わる。装着時の持ちが良く、ジェルが角質に入り込みにくい、抗アレルギー、抗汗、色も変えない、どんなタイプの肌にも適しています。
+                            \nゲルパッドの使用回数の目安は15回程度です。(使用条件によって変わります)
+                            \n指先に水滴をつけてジェルシートの粘着面（ジェル面）をこすり、汚れを取り除いたことがっできます。
+                            \n粘着力が低下しましたら交換してください。</string>
+    
+    <string name="faq_q_13">次の方が使用しないでください  </string>
+    <string name="faq_a_13">妊娠中の方、12歳未満のお子様、心臓に障害のある方。 </string>
+    
+    
+</resources>

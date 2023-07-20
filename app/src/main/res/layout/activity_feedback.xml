@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/page_background">
+    
+    <com.releasy.android.view.TopNavLayout 
+        android:id="@+id/topNavLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">    
+    </com.releasy.android.view.TopNavLayout>
+    
+    <ListView
+        android:id="@+id/feedbackList"
+        android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:cacheColorHint="#00000000"
+		android:divider="#cccccc"
+		android:dividerHeight="0px"
+		android:scrollbarStyle="outsideOverlay"
+        />
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/cut_off_rule"/>
+    <LinearLayout
+        android:id="@+id/editLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:focusable="true"
+        android:background="@color/white"
+        android:focusableInTouchMode="true">
+        <EditText
+            android:id="@+id/feedbackEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/color_txt_333333"
+            android:textSize="16sp"
+            android:maxLines="4"
+            android:padding="7.5dp"
+            android:background="@drawable/bg_feedback_edit"/>
+        <TextView
+            android:id="@+id/feedbackBtn"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="@string/seed"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="7.5dp"
+            android:paddingBottom="7.5dp"
+            android:background="@drawable/btn_seed"/>
+    </LinearLayout>
+
+</LinearLayout>

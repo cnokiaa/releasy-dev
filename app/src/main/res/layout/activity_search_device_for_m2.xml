@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    
+    <com.releasy.android.view.TopNavLayout 
+        android:id="@+id/topNavLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">    
+    </com.releasy.android.view.TopNavLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+        <RelativeLayout 
+            android:id="@+id/startSearchLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <ImageView
+                android:id="@+id/searchingImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sreach_anim"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:id="@+id/searchingBarImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_seraching_bar"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/searching"
+                android:textSize="16sp"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        
+        <LinearLayout 
+            android:id="@+id/endSearchLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_search_none_device"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_end"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/color_txt_666666"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/expandableList"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:groupIndicator="@null"
+        android:choiceMode="singleChoice"
+        android:divider="@color/color_txt_E6E6E6"
+        android:dividerHeight="1px"
+        android:visibility="gone"
+        android:fadingEdge="none"
+        android:scrollingCache="false"
+        android:listSelector="@drawable/bg_transparent"
+        />
+    
+</LinearLayout>

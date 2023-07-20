@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp">
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/listHeadImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sreach_anim"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"/>
+        <ImageView
+            android:id="@+id/listHeadBarImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_seraching_bar"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/searching"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        <TextView
+            android:id="@+id/deviceNameTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_arrow"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_txt_CEE0E5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/search_result_txt_start"
+            android:textColor="@color/color_txt_CEE0E5"/>
+        
+        <TextView
+            android:id="@+id/deviceNumTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/color_txt_CEE0E5"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/search_result_txt_end"
+            android:textColor="@color/color_txt_CEE0E5"/>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

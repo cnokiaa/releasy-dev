@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="circular_seek_bar_view_string_size">11sp</dimen>
+    <dimen name="circular_seek_bar_view_bar_width">8.5dp</dimen>
+    
+    <dimen name="swipe_menu_txt_size">6sp</dimen>
+    
+    <dimen name="rename_edit_txt_size">8sp</dimen>
+    
+    <dimen name="rename_edit_top_margin">5dp</dimen>
+    
+    <dimen name="page_margin">0dp</dimen>
+</resources>

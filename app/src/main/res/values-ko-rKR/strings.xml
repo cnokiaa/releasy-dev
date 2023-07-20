@@ -1,0 +1,266 @@
+<resources>
+
+    <string name="app_name">Relax Place</string>
+<!--    <string name="app_name">Mooyee</string>-->
+
+    
+    <string name="menu_settings">Settings</string>
+    <string name="privacy_agree">동의</string>
+    <string name="privacy_disagree">동의하지 않음</string>
+    <string name="privacy_title">Service Agreement and Privacy Policy</string>
+
+    
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    
+    <string name="unknown_device">Unknown device</string>
+
+    <string name="network_anomaly">네트워크 이상</string>	
+    
+    <string name="please_fill_in_the_note_name">이름을 입력하세요</string>	
+    <string name="note_name_length_not_more_than_8">8자리 이하로 입력하세요 </string>	
+    
+    <string name="input_phone_num">핸드폰 번호를 입력하세요</string>
+    <string name="register">입력</string>
+    <string name="phone_num_null">핸드폰 번호는 공란업이 입력하세요</string>
+    <string name="pls_edit_accurate_phone_num">정확한 핸드폰 번호를 입력하세요!</string>
+    <string name="device_list_sliding">장치를 왼쪽으로 밀면 항목이 나타날 것입니다.</string>
+    
+    <string name="closing_device">장치 종료중…</string>
+    <string name="doing">활동중</string>
+    <string name="end_massage">마사지 종료</string>
+    <string name="device_closed_or_not">장치 연결이 종료되었는지 아닌지</string>
+    <string name="del_device">移장치 삭제</string>
+    <string name="del_runing_device">실행 중인 상태이며, 장비를 제거하게 되면 작업이 중지됩니다. 장치를 제거하시겠습니까?</string>
+    <string name="close_success_device">종료 완료</string>
+    <string name="are_connected_devices">장치에 명령을 보내는 중, 잠시 기다려 주세요...</string>
+    <string name="please_try_restart_ble">블루투스를 사용하기 전 다시 시작해주세요.</string>
+    <string name="piracy_devices">불법 복제 장치를 위해, 제발 진품을 사용해주세요. 사용한 후에는 불법 제품을 제거해주세요.</string>
+    <string name="currently_no_device">현재 장치와 일치하는 항목이 없습니다.</string>
+    <string name="connection_is_broken">연결이 실패했습니다.</string>
+    <string name="modify_the_note_name">노트이름 수정 </string>
+
+    
+    <string name="prompt">시도</string>
+    <string name="prompt_sdk23">Android 6.0 시스템 블루투스 검색 기능은 사용할 서비스의 위치를 열어야 합니다. 그렇지 않으면 검색이 되지 않습니다. 위치 서비스를 열어 주세요.</string>
+    <string name="rename">재명명</string>
+    <string name="updata_app_title">소프트웨어 업그레이드</string>
+    <string name="updata">업데이트</string>
+    <string name="cancel">취소</string>
+    <string name="delete">삭제</string>
+    <string name="confirm">확정</string>
+    <string name="unknow">미정</string>
+    <string name="connect_failure">연결 실패!</string>
+    <string name="device_connect_failure">장치 연결 실패!</string>
+    <string name="close">종료</string>
+    <string name="share">공유</string>
+    
+    <string name="relax_shop">라운지</string>
+    <string name="music">음악</string>
+    <string name="music_title">음악</string>
+    <string name="device">장치</string>
+    <string name="device_title">장치</string>
+    <string name="other">기타</string>
+    <string name="other_title">기타</string>
+    
+    <string name="room_can_not_delete">공식 휴식 파빌리온이라 삭제할 수 없습니다!</string>
+    <string name="del_room_dialog_msg_start">정말 휴식 파빌리온을 삭제하시겠습니까</string>
+    <string name="del_room_dialog_msg_end">&#160;?</string>
+    <string name="low">저</string>
+    <string name="middle">중</string>
+    <string name="high">고</string>
+    <string name="power_updata">강도 조절</string>
+    <string name="add_new_shop">추가</string>
+    <string name="save">저장</string>
+    <string name="input_shop_name">이름 입력</string>
+    <string name="select_pic">사진 선택</string>
+    <string name="select_music">음악 선택</string>
+    <string name="no_select_music">선택된 음악이 없습니다.</string>
+    <string name="no_select_pic_toast">사진을 먼저 선택하세요!</string>
+    <string name="no_select_music_toast">음악을 먼저 선택하세요!</string>
+    <string name="set_device_action">장치 모드 설정</string>
+    <string name="base_action">기본 활동</string>
+    <string name="scene_action">장면</string>
+    <string name="pls_selsct_action">마사지 활동을 선택하세요!</string>
+    <string name="pls_stop_action_re_edit">마사지를 정지하고 재수정 하세요!</string>
+    <string name="connect_failure_start">장치&#160;</string>
+    <string name="connect_failure_end">&#160;연결에 실패했습니다. 장비 과장성, 전기 부족 또는 개방되지 않은 상태 때문일 수 있습니다.</string>
+    
+    <string name="local_music">음악</string>
+    <string name="on_line_music">노래</string>
+    <string name="local_music_no_music_start">음악이 없습니다.</string>
+    <string name="local_music_no_music_end">음악 보관함에서 음악을 다운로드 할 수 있습니다.</string>
+    <string name="sdcard_error">SD 카드가 없습니다</string>
+    <string name="downloaded">다운로드 중</string>
+    <string name="loading_music">음악 업로드</string>
+    <string name="music_not_data">음악이 더 이상 없습니다</string>
+    <string name="loading_failure">업로드 실패</string>
+    <string name="loading">업로드중…</string>
+    
+    <string name="address">Id:&#160;</string>
+    <string name="add_device">장치 추가</string>
+    <string name="devices_max_4">최대 4개의 장치를 바인딩</string>
+    <string name="devices_max_1">최대 장치 세트 1개 바인딩</string>
+    <string name="search_device">장치 검색</string>
+    <string name="searching">검색중…</string>
+    <string name="devices_num_0">바인딩 장치를 선택해 주세요</string>
+    <string name="search_result_txt_start">검색&#160;</string>
+    <string name="search_result_txt_end">&#160;새 장치</string>
+    <string name="search_end">새로운 장치가 발견되지 않았습니다. \n 다시 검색해 주세요!</string>
+    <string name="test">테스트</string>
+    
+    <string name="mobile_phone_binding">모바일 바인딩</string>
+    <string name="faq">FAQ</string>
+    <string name="feedback">피드백</string>
+    <string name="authority_web">공식 웹사이트</string>
+    <string name="about">정보</string>
+    <string name="about_title">정보</string>
+    <string name="change">변화</string>
+    <string name="bind_phone_num_txt">숫자 바인드:</string>
+    <string name="bind_phone_success">성공적으로 수정했습니다!</string>
+    <string name="seed">전송</string>
+    
+    <string name="share_app">공유</string>
+    <string name="updata_app">버전 검사</string>
+    <string name="latest_version">최신 버전입니다!</string>
+    <string name="about_copyright">Shenzhen Wangyoucao Technology 주식회사. \n 모든 권리 보장</string>
+    <string name="medisana_joint_development">&#160;공동 개발</string>
+    
+    <string name="click_to_select_music">당신이 좋아하는 음악을 선택해주세요.</string>
+    <string name="retrieving_version">버전 정보를 가져오는 중입니다. 잠시만 기다려주세요.</string>
+    <string name="submitting_data">데이터 전송중. 잠시만 기다려 주세요.</string>
+    <string name="again_to_exit">종료를 위해 다시 눌러주세요.</string>
+
+    <string name="classic">클래식</string>
+    <string name="physiotherapy">물리치료</string>
+    <string name="zen">선</string>
+    <string name="home">가정</string>
+    <string name="office">사무실</string>
+    <string name="seaside">해변</string>
+    <string name="valley">계곡</string>
+    <string name="on_the_way">운행중</string>
+    <string name="taking_a_nap">휴식</string>
+    <string name="travel">여행</string>
+    
+    <string name="knead">주무름</string>
+    <string name="press">누름</string>
+    <string name="squeeze">압출</string>
+    <string name="stroke">때림</string>
+    <string name="elbow">팔꿈치</string>
+    <string name="beat">두드림</string>
+    <string name="massage">마사지</string>
+    <string name="scraping">긁음</string>
+    <string name="cupping_jar">부항</string>
+    <string name="acupuncture">침술</string>
+    
+    <string name="user_defined">사용자 조정</string>
+    <string name="initial_time">30:00 </string>
+    <string name="personal_information">사용자 정보</string>
+    <string name="user_record">사용 기록 </string>
+    <string name="improve_personal_information">당신의 개인 정보를 완료하세요 </string>
+    <string name="please_choose_your_gender">당신의 성별을 선택하세요</string>
+    <string name="next_step">다음</string>
+    <string name="last_step">이전</string>
+    <string name="please_choose_your_date_of_birth">당신의 생일을 선택하세요</string>
+    <string name="year">연</string>
+    <string name="month">월 </string>
+    <string name="day">일</string>
+    <string name="please_choose_your_height">당신의 키를 선택하세요</string>
+    <string name="please_choose_your_weight">당신의 몸무게를 선택하세요</string>
+    <string name="please_enter_your_phone_number">당신의 핸드폰 번호를 입력하세요</string>
+    <string name="please_enter_your_email">당신의 이메일 주소를 입력하세요</string>
+    <string name="complete">완료</string>
+    <string name="phone_number">핸드폰</string>
+    <string name="email">이메일</string>
+    <string name="sex">성별</string>
+    <string name="man">남자</string>
+    <string name="woman">여자</string>
+    <string name="age">생일</string>
+    <string name="height">키</string>
+    <string name="weight">몸무게</string>
+    <string name="body_fat">핸드폰</string>
+    <string name="shoulder">어깨</string>
+    <string name="back">등</string>
+    <string name="loin">허리</string>
+    <string name="arm">팔</string>
+    <string name="thigh">허벅지</string>
+    <string name="shank">정강이</string>
+    <string name="please_select_your_device">당신의 장비를 선택하세요</string>
+    <string name="mooyee_m1">M1</string>
+    <string name="mooyee_m2">M2</string>
+    <string name="choice_device">장치 선택</string>
+    <string name="please_select_the_m2_a">M2&#160;본체를&#160;선택하세요</string>
+    <string name="please_select_the_m2_b">M2&#160;부체를&#160;선택하세요</string>
+    <string name="free_combination">사용자 조정</string>
+    <string name="expression_recognition">감정</string>
+    <string name="recognition_of_emotion">감정 인식중…</string>
+    <string name="pls_selsct_action_txt">활동 선택</string>
+    <string name="not_affixed_to_the_body">장치가 당신의 몸에 부착되어 있지 않습니다.</string>
+    <string name="no_device_attached_to_the_body">장치가 당신의 몸에 부착되어 있지 않습니다. 마사지 시작하기 전 부착해 주세요.</string>
+    <string name="no_device_connect">장치 연결이 해제되었습니다. 확인해 주세요.</string>
+    <string name="calm">침착함</string>
+    <string name="fear">놀람</string>
+    <string name="get_angry">화남</string>
+    <string name="happy">행복함</string>
+    <string name="sad">혼란스러움</string>
+    <string name="sentimental">슬픔</string>
+    <string name="no_user_record_txt">사용 기록이 없습니다</string>
+    <string name="use_details">사용 세부사항</string>
+    <string name="update_success">업데이트 성공</string>
+    <string name="skip">넘기기</string>
+    <string name="user_skip_prompt">저희는 보다 맞춤화된 마사지 서비스를 제공하기 위해 이러한 정보를 수집합니다. 저희는 모든 정보를 안전하게 지킬 것을 약속합니다. \n\n 정말 건너뛰시겠습니까?</string>
+    
+    <string name="exit">끝내기</string>
+    <string name="exit_msg">장치가 작동 중일 때 종료 프로그램 장치가 실행을 중지합니다. 종료 절차를 확인해야 하나요?</string>
+    
+    <string name="gps_permission_title">권한 설정</string>
+    <string name="gps_permission_msg">시스템 설정에 응용 프로그램 권한 관리를 찾을 때 에이프의 목록에서 [mooyee] 을 찾을 수 있습니다. 위치 권한을 엽니다.설정할 수 있는 권한이 있어야 설비를 찾을 수 있습니다.</string>
+    <string name="music_permission_title">권한 설정</string>
+    <string name="music_permission_msg">시스템 설정에서 응용 프로그램 권한 관리를 찾았고, App 의 목록에서 [모옴도 관람관] 다음 멀티미디어 권한을 여는 것이다.멀티미디어 권한을 열어야 음악을 읽을 수 있습니다.</string>
+    
+    
+    <string name="medisana_m2_a_name">Medisana 본체</string>
+    <string name="medisana_m2_b_name">Medisana 부체</string>
+    
+    
+    <string name="faq_q_1">어떻게 장치를 연결하나요?</string>
+    <string name="faq_a_1">→ 메인 인터페이스 \n→ 장치 \n→ 새 장치 추가하기 \n→ 검색 (M2는 메인 유닛과 서브 유닛을 동시에 선택해야 합니다.) \n→ 테스트 (부착된 피부 부위에 약간의 마사지 느낌이 들 때 깜빡입니다.) \n→ 장치 바인딩 \n→ 메인 인터페이스로 돌아가기 \n→ 파빌리온을 선택하고 마사지 시작하기.</string>
+    
+    <string name="faq_q_2">장치를 어떻게 연결 해제하나요?</string>
+    <string name="faq_a_2">메인 메뉴에서 「장치」를 클릭하고 왼쪽으로 밀어 열을 나타내세요. 「삭제」를 선택하세요.</string>
+    
+    <string name="faq_q_3">핸드폰을 사용할 때 어떻게 장치를 끄나요?</string>
+    <string name="faq_a_3">메인 메뉴에서 「장치」를 클릭하세요. 그런 다음 왼쪽으로 밀어 열을 표시하고 「전원 끄기」를 선택하세요. 기기가 종료되면 표시등 불이 켜집니다.</string>
+    
+    <string name="faq_q_4">실행 시간을 어떻게 설정하나요?</string>
+    <string name="faq_a_4">→ 특정 파빌리온 선택하기. \n→ 탭을 밀어 마사지 유형 변경하기. \n→ +와-를 눌러 강도 조절하기. \n→ 디스크 아이콘을 눌러 음악 선택하기. \n→ 재생/일시 정지를 눌러 재생/일시 정지하기.</string>
+    
+    <string name="faq_q_5">사용자 지정 파빌리온</string>
+    <string name="faq_a_5">사용자 지정 파빌리온을 사용하면 주 장치와 서브 장치가 동시에 서로 다른 작업을 수행할 수 있습니다. 예를 들어 손목에 「팔꿈치」를, 어깨에 「비트」를 사용할 수 있습니다. 이는 사용자에게 완전히 새로운 경험을 가져다 줍니다. \n 컨트롤러 화면 왼쪽에서 메인 장치를 제어하고 컨트롤러 화면의 오른쪽에서 서브 장치를 제어합니다. 화면 하단에 강도 조정 버튼이 있습니다. 구성 후 시작/일시 정지 버튼을 사용하여 전체 프로세스를 시작하거나 일시 정지할 수 있습니다.\n사용자 지정 파빌리온은 M2만 지원합니다.</string>
+    
+    <string name="faq_q_6">장치가 연결 해제되었습니다. 어떻게 해야 하나요?</string>
+    <string name="faq_a_6">이는 블루투스 연결이 중단되었기 때문입니다. 연결이 안정적이지 않거나 휴대 전화가 장치로부터 너무 멀리 떨어져 있는 경우(올바른 거리는 10m) 일어납니다. 이런 일이 일어났을 때 할 수 있는 일은 많지 않습니다. 연결이 안정될 때까지 기다리거나 장치와 휴대 전화 사이의 거리를 줄이세요. 다시 실행하기 위해서는 시작 버튼을 클릭하세요. \n 다른 가능한 원인은 배터리가 10% 미만으로 떨어졌기 때문입니다. 이 경우 장치를 충전하세요.</string>
+    
+    <string name="faq_q_7">어플리케이션이 실행중이지만 왜 저는 아무런 마사지를 느낄 수 없나요?</string>
+    <string name="faq_a_7">이는 대부분 배터리가 낮아서 그렇습니다. 10% 미만으로 떨어졌다면 장치를 충전하세요.</string>
+    
+    <string name="faq_q_8">장치를 어떻게 절전모드에서 활성화시키나요?</string>
+    <string name="faq_a_8">장치 대기 시간이 30분 이상이면 자동으로 절전 모드로 전환되어 전력을 절약합니다. 절전 모드에서는 장치를 검색하고 제어할 수 없습니다. \n\n 이 때 두 개의 장치를 한데 모아 1초 후에 분리하면 장치가 활성화되며 표시등에 불이 들어옵니다. 표시등이 꺼지는 경우 전원이 부족한 것일 수 있으며 충전해야 합니다.</string>
+    
+    <string name="faq_q_9">장치가 완전히 꺼지면 어떻게 해야 하나요?</string>
+    <string name="faq_a_9">이러한 경우는 극히 드문 경우입니다. 만약 이런 일이 일어난다면, 핀을 사용해 재설정 버튼을 누르세요. 장치는 공장 상태로 돌아갈 것이고 완벽하게 작동할 것입니다.</string>
+    
+    <string name="faq_q_10">마사지를 하는 동안 무엇이 따끔거리는 느낌을 주나요?</string>
+    <string name="faq_a_10">각 사람이 서로 다른 체질, 다른 민감성, 다른 정신 상태를 가질 수 있기 때문에 사용시 마사지에 의해 발산되는 감정은 하루하루 다르게 나타날 수 있습니다. 따끔거리면 즉시 장치 사용을 중단하고 시간이 지나면 다시 시도하세요. 마사지를 계속하려면 칩의 위치를 바꾸어야 합니다. 칩의 점도가 너무 낮아서 피부가 따끔거릴 수 있으므로 칩을 교체해야 한다는 의미일 수 있습니다.</string>
+    
+    <string name="faq_q_11">장치를 놓는 가장 좋은 위치가 어디인가요?</string>
+    <string name="faq_a_11">가장 좋은 위치는 등과 어깨, 그리고 팔과 다리입니다. 머리, 목 또는 가슴 위에 장치를 올리지 말아야 합니다.</string>
+    
+    <string name="faq_q_12">젤 패드 정보</string>
+    <string name="faq_a_12">젤 패드는 거의 0의 저항력을 지닌 은색 니들 직물 및 하이드로겔 기술을 사용합니다. 이 칩은 원활한 출력과 압력의 균일한 분배를 보장하며 얇고 부드러운 소재로 만들어졌습니다. 이 칩은 편안하고 안전하며 쏘지 않으며 세탁할 수 있기 때문에 여러분이 원하는 위치에 부착할 수 있습니다. 이것은 알레르기 방지, 땀 방지기능이 있고 색이 변하지 않아 어떤 피부 타입에도 적합합니다. 젤 패드가 통과시킬 수 있는 평균 세척량은 50입니다. 젤 패드를 세척한 후 사용 전에 건조시키세요. 젤 패드에 점성이 충분하지 않으면 따끔거릴 수 있으므로 젤 패드를 교체해야 합니다.</string>
+    
+    <string name="faq_q_13">비적용자</string>
+    <string name="faq_a_13">아이들, 임신한 여성, 심장 질환을 겪고 있는 환자들</string>
+    
+    
+</resources>

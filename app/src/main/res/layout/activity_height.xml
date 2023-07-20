@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white" >
+
+    <com.releasy.android.view.TopNavLayout 
+        android:id="@+id/topNavLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">    
+    </com.releasy.android.view.TopNavLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_txt_869398"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/please_choose_your_height"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/height_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:text="0"
+                android:textColor="@color/color_txt_5ECAFA"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/color_txt_869398"
+                android:text="cm"
+                android:layout_weight="1"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/height"
+                android:padding="5dp">
+                <com.releasy.android.view.VerticalScaleScrollView
+                    android:id="@+id/verticalScaleScrollView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

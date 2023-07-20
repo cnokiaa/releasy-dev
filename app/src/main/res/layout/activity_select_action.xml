@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/page_background">
+    
+    <com.releasy.android.view.TopNavLayout 
+        android:id="@+id/topNavLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">    
+    </com.releasy.android.view.TopNavLayout>
+    
+    <RadioGroup
+        android:id="@+id/tabRG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:gravity="center">
+        <RadioButton
+            android:id="@+id/baseActionRG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:textColor="@color/color_action_rg_txt"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:checked="true"
+            android:background="@drawable/btn_action_rg_left"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/base_action"/>
+        <RadioButton
+            android:id="@+id/sceneActionRG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:textColor="@color/color_action_rg_txt"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:background="@drawable/btn_action_rg_right"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/scene_action"/>
+        </RadioGroup>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:numColumns="4"
+        android:verticalSpacing="0.0px" 
+        android:horizontalSpacing="0.0px"   
+        android:stretchMode="columnWidth"
+        android:gravity="fill"
+        
+        android:listSelector="@null" 
+        android:soundEffectsEnabled="true"
+        android:smoothScrollbar="true"  
+        />
+
+    <com.releasy.android.view.PowerBar
+        android:id="@+id/powerBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

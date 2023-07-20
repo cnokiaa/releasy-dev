@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white" >
+
+    <com.releasy.android.view.TopNavLayout 
+        android:id="@+id/topNavLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">    
+    </com.releasy.android.view.TopNavLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical" 
+        android:gravity="center_horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_txt_869398"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/please_choose_your_gender"
+            />
+        <RadioGroup  
+            android:id="@+id/gender_rgs"  
+            android:layout_width="wrap_content"  
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="10dp">  
+            <RadioButton  
+                android:id="@+id/boy_rg"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:checked="true"  
+                android:gravity="center"
+                android:button="@null"
+                android:drawableTop="@drawable/bg_boy_rg"/>
+            <RadioButton  
+                android:id="@+id/girl_rg"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:gravity="center"
+                android:button="@null"
+                android:drawableTop="@drawable/bg_girl_rg"/>  
+        </RadioGroup> 
+    </LinearLayout>
+
+</LinearLayout>

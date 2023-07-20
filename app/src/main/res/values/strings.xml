@@ -1,0 +1,266 @@
+<resources>
+
+    <!--    <string name="app_name">Mooyee</string>-->
+    <string name="app_name">Relax Place</string>
+
+
+    <string name="menu_settings">Settings</string>
+    <string name="privacy_title">Service Agreement and Privacy Policy</string>
+
+    <string name="privacy_agree">agree</string>
+    <string name="privacy_disagree">disagree</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+
+    <string name="network_anomaly">Network anomaly</string>
+
+    <string name="please_fill_in_the_note_name">Please fill in the note name.</string>
+    <string name="note_name_length_not_more_than_8">Note the name of the length of not more than 8.</string>
+
+    <string name="input_phone_num">Enter Phone num</string>
+    <string name="register">Enter</string>
+    <string name="phone_num_null">Phone number cannot be blank! </string>
+    <string name="pls_edit_accurate_phone_num">Please enter the correct phone number!</string>
+    <string name="device_list_sliding">Slide the Device list left will appear items!</string>
+
+    <string name="closing_device">Closing device...</string>
+    <string name="doing">Doing</string>
+    <string name="end_massage">End_massage</string>
+    <string name="device_closed_or_not">Connect the device have been closed or not</string>
+    <string name="del_device">Delete device</string>
+    <string name="del_runing_device">Is in running state, removing equipment will stop action, sure you want to remove the equipment? </string>
+    <string name="close_success_device">Close the success </string>
+    <string name="are_connected_devices">Sending command to the device, Please wait...</string>
+    <string name="please_try_restart_ble">Please try to restart before using bluetooth.</string>
+    <string name="piracy_devices">for piracy devices, please support genuine. Remove the pirated equipment after use.</string>
+    <string name="currently_no_device">Currently there is no match to the device </string>
+    <string name="connection_is_broken">connection is broken!</string>
+    <string name="modify_the_note_name">Modify the note name </string>
+
+    <string name="prompt">prompt</string>
+    <string name="prompt_sdk23">Android6.0 system Bluetooth scanning function needs to open the location of services to use, otherwise the search is not the equipment, please open the location services!</string>
+    <string name="rename">rename</string>
+    <string name="updata_app_title">Software Upgrading</string>
+    <string name="updata">Updata</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="unknow">Unknow</string>
+    <string name="device">Device</string>
+    <string name="connect_failure">Connection failed!</string>
+    <string name="device_connect_failure">Device connection failed!</string>
+    <string name="close">Off</string>
+    <string name="share">Share</string>
+
+    <string name="relax_shop">Relax</string>
+    <string name="music">Music</string>
+    <string name="music_title">Music</string>
+    <string name="device_title">Device</string>
+    <string name="other">Other</string>
+    <string name="other_title">Other</string>
+
+    <string name="room_can_not_delete">is the official relax pavilion, cannot be deleted!</string>
+    <string name="del_room_dialog_msg_start">Are you sure to delete relaxed pavilion&#160;</string>
+    <string name="del_room_dialog_msg_end">&#160;?</string>
+    <string name="low">Low</string>
+    <string name="middle">Middle</string>
+    <string name="high">High</string>
+    <string name="power_updata">The intensity of adjustment</string>
+    <string name="add_new_shop">Add</string>
+    <string name="save">Save</string>
+    <string name="input_shop_name">Enter a name</string>
+    <string name="select_pic">Choose a picture</string>
+    <string name="select_music">Choose a music</string>
+    <string name="no_select_music">No choice of music!</string>
+    <string name="no_select_pic_toast">Please choose a picture first!</string>
+    <string name="no_select_music_toast">Please choose a music first!</string>
+    <string name="set_device_action">Set device mode</string>
+    <string name="base_action">Basic action </string>
+    <string name="scene_action">Scene</string>
+    <string name="pls_selsct_action">Please choose the massage action!</string>
+    <string name="pls_stop_action_re_edit">Please stop massaging and re-edit!</string>
+    <string name="connect_failure_start">The device&#160;</string>
+    <string name="connect_failure_end">&#160;connection fails. May be due to equipment hypertelorism, electricity shortage, or not open.</string>
+
+    <string name="local_music">Music</string>
+    <string name="on_line_music">Songs</string>
+    <string name="local_music_no_music_start">No music</string>
+    <string name="local_music_no_music_end">You can go to download the music you like in the music library!</string>
+    <string name="sdcard_error">No SD card</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="loading_music">Upload more music</string>
+    <string name="music_not_data">No more music</string>
+    <string name="loading_failure">Upload failed</string>
+    <string name="loading">Uploading...</string>
+
+    <string name="address">Id:&#160;</string>
+    <string name="add_device">Add device</string>
+    <string name="devices_max_4">Binding four devices most</string>
+    <string name="devices_max_1">Binding 1 sets of devices most</string>
+    <string name="search_device">Search device</string>
+    <string name="searching">Searching…</string>
+    <string name="devices_num_0">Please choose the binding device</string>
+    <string name="search_result_txt_start">The discovery of &#160;</string>
+    <string name="search_result_txt_end">&#160;new device</string>
+    <string name="search_end">No new device found.\nPlease search again!</string>
+    <string name="test">Test</string>
+
+    <string name="mobile_phone_binding">Binding mobile</string>
+    <string name="faq">FAQ</string>
+    <string name="feedback">Feedback</string>
+    <string name="authority_web">Official website</string>
+    <string name="about">About</string>
+    <string name="about_title">About</string>
+    <string name="change">Change</string>
+    <string name="bind_phone_num_txt">You bind number:</string>
+    <string name="bind_phone_success">Change successfully!</string>
+    <string name="seed">Send</string>
+
+    <string name="share_app">Share</string>
+    <string name="updata_app">Version detection</string>
+    <string name="latest_version">Is the latest version!</string>
+    <string name="about_copyright">Shenzhen Wangyoucao Technology Co., Ltd.\nall rights reserved.</string>
+    <string name="medisana_joint_development">&#160;Joint development</string>
+
+    <string name="click_to_select_music">Choose the music you like.</string>
+    <string name="retrieving_version">Getting the version information, please wait a moment.</string>
+    <string name="submitting_data">Submitting data please wait a moment.</string>
+    <string name="again_to_exit">Press again to exit.</string>
+
+    <string name="classic">Classic</string>
+<!--    <string name="physiotherapy">Physiotherapy</string>-->
+    <string name="physiotherapy">Traditional</string>
+    <string name="zen">Zen</string>
+    <string name="home">Home</string>
+    <string name="office">Office</string>
+    <string name="seaside">Seaside</string>
+    <string name="valley">Valley</string>
+    <string name="on_the_way">On passage</string>
+    <string name="taking_a_nap">Rest</string>
+    <string name="travel">Travel</string>
+
+    <string name="knead">Knead</string>
+    <string name="press">Press</string>
+    <string name="squeeze">Squeeze</string>
+    <string name="stroke">Stroke</string>
+    <string name="elbow">Elbow</string>
+    <string name="beat">Beat</string>
+    <string name="massage">Massage</string>
+    <string name="scraping">Scraping</string>
+    <string name="cupping_jar">Cupping jar</string>
+    <string name="acupuncture">Acupuncture</string>
+
+    <string name="user_defined">Custom</string>
+    <string name="initial_time">30:00 </string>
+    <string name="personal_information">User Information</string>
+    <string name="user_record">Usage Record</string>
+    <string name="improve_personal_information">Complete your personal info</string>
+    <string name="please_choose_your_gender">Please choose your sex</string>
+    <string name="next_step">Next</string>
+    <string name="last_step">Prev</string>
+    <string name="please_choose_your_date_of_birth">Please choose your birthday</string>
+    <string name="year">Year </string>
+    <string name="month">Month </string>
+    <string name="day">Day </string>
+    <string name="please_choose_your_height">Please choose your height</string>
+    <string name="please_choose_your_weight">Please choose your weight</string>
+    <string name="please_enter_your_phone_number">Please enter your phone number</string>
+    <string name="please_enter_your_email">Please enter your email address</string>
+    <string name="complete">Done</string>
+    <string name="phone_number">Phone</string>
+    <string name="email">Email</string>
+    <string name="sex">Sex</string>
+    <string name="man">Male</string>
+    <string name="woman">Female</string>
+    <string name="age">Birthday</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="body_fat">Phone</string>
+    <string name="shoulder">Shoulder</string>
+    <string name="back">Back</string>
+    <string name="loin">Waist</string>
+    <string name="arm">Arm</string>
+    <string name="thigh">Thigh</string>
+    <string name="shank">Shank</string>
+    <string name="please_select_your_device">Please choose your device</string>
+    <string name="mooyee_m1">M1</string>
+    <string name="mooyee_m2">M2</string>
+    <string name="choice_device">Choice Device</string>
+    <string name="please_select_the_m2_a">Please selected M2 Main Device</string>
+    <string name="please_select_the_m2_b">Please selected M2 Sub Device</string>
+    <string name="free_combination">Custom</string>
+    <string name="expression_recognition">Emotion</string>
+    <string name="recognition_of_emotion">Recognition of emotion...</string>
+    <string name="pls_selsct_action_txt">Choose an action</string>
+    <string name="not_affixed_to_the_body">Device is not attached to your body.</string>
+    <string name="no_device_attached_to_the_body">Device is not attached to your body, please attach that before starting massage.</string>
+    <string name="no_device_connect">Device disconnected,Please check.</string>
+    <string name="calm">Calm</string>
+    <string name="fear">Surprised</string>
+    <string name="get_angry">Angry</string>
+    <string name="happy">Happy</string>
+    <string name="sad">Confused</string>
+    <string name="sentimental">Sad</string>
+    <string name="no_user_record_txt">The usage record is none</string>
+    <string name="use_details">Usage details</string>
+    <string name="update_success">Update success</string>
+    <string name="skip">Skip</string>
+    <string name="user_skip_prompt">We are sincerely to collect these information for providing you with better personalized massage service. We commit to keep all the information safety.\n\nAre you sure to skip it?</string>
+
+    <string name="exit">Exit</string>
+    <string name="exit_msg">When the device is in operation, the exit program device will stop running. Is it necessary to confirm the exit procedure?</string>
+
+    <string name="gps_permission_title">Permission is not opened </string>
+    <string name="gps_permission_msg">Go to application permission management in system setting to find the【mooyee】in the list of Apps . You need to open the location permission to find the device.</string>
+    <string name="music_permission_title">Permission is not opened</string>
+    <string name="music_permission_msg">In the system settings, find the application privilege management, in the App list, [Moyo Relax Pavilion], and then open the multimedia privileges. You need to open multimedia permissions before you can read music.</string>
+
+
+    <string name="medisana_m2_a_name">Medisana Main</string>
+    <string name="medisana_m2_b_name">Medisana Sub</string>
+
+
+    <string name="faq_q_1">How do I connect a device?</string>
+    <string name="faq_a_1">→ Main interface \n→ Device \n→ Add a new device \n→ Search (M2 needs to select main unit and sub unit at the same time) \n→ Test (indicators twinkle as you feel slight massage feeling on the attached part of your skin) \n→ Bind device \n→ Back to main interface \n→ Choose your pavilion and begin massaging.</string>
+
+    <string name="faq_q_2">How do I disconnect a device?</string>
+    <string name="faq_a_2">Click「Device」at the main menu and then swipe to the left to reveal a column. Select「Delete」.</string>
+
+    <string name="faq_q_3">How do I close the device using my mobile phone?</string>
+    <string name="faq_a_3">Click「Device」at the main menu. Then, swipe left to reveal a column and select「PowerOff」. The indicator light will turn off when the device has shut down. </string>
+
+    <string name="faq_q_4">How do I set the running time?</string>
+    <string name="faq_a_4">→ Choose a certain pavilion. \n→ Slides tabs to change massage types. \n→ Tap + and - to adjust intensities. \n→ Touch the disc icon to choose music. \n→ Press play/pause to play/pause.</string>
+
+    <string name="faq_q_5">Custom Pavilion</string>
+    <string name="faq_a_5">Custom pavilion allows main device and sub device to excute different activities at the same time. For example, you can use 「elbow」 on your wrist and 「beat」 on your shoulder. It brings you a whole new experience. \nIn the custom pavilion, left side of the controller screen controls the main device, the right side of the controller screen controls the sub device. you can find the intensity adjust button on the bottom of the screen. after the configuration, you can use start/pause button to start/pause the whole process.\nCustom Pavilion only supports M2.</string>
+
+    <string name="faq_q_6">Device Disconnected. What should I do?</string>
+    <string name="faq_a_6">This is because the Bluetooth connection has been interrupted. Either the connection isn’t stable enough or the mobile phone is too far away from the device to connect (the correct distance is 10 metres). There isn’t much to be done when this occurs. Either wait until your connection is stable enough or reduce the distance between the device and the mobile phone. Click start button to run again. \nAnother possible cause is that the battery has dropped below 10%. If this happens, recharge your device. </string>
+
+    <string name="faq_q_7">Why is the App running but I can\'t feel the massage?</string>
+    <string name="faq_a_7">This is usually caused by low battery. If it is under 10%, recharge your device. </string>
+
+    <string name="faq_q_8">How to activate the device in sleep?</string>
+    <string name="faq_a_8">If the device standby time is over 30 minutes, It will automatically enter sleep in order to save power. The device can not be searched and controlled in sleep.\n\nAt this time, two pieces devices should be put together and separated after 1 second, then the devices will be activated and the indicator light will be lit. If the indicator light is in the extinguished state, it may be insufficient of power and should to be charged.</string>
+
+    <string name="faq_q_9">What do I do if the device completely stops?</string>
+    <string name="faq_a_9">The chances of this happening are very small. If it occurs, simply use a pin to press the reset button. The device will return to factory settings and will function perfectly.</string>
+
+    <string name="faq_q_10">What is causing this prickling sensation during a massage?</string>
+    <string name="faq_a_10">Because each person can have a different constitution, a different sensitivity and a different mental state at the time of use, sensations given off by the massage can seem different from one day to another. If you ever feel tingling, stop the device immediately and try again after some time has passed. If you would like to continue the massage, you will have to change the position of the chip until you no longer feel any tingling. It\'s possible that the viscosity of the chip is too low, which leads to prickling skin, meaning that the chip must be replaced. </string>
+
+    <string name="faq_q_11">Which is the best place to put the device?</string>
+    <string name="faq_a_11">The best areas are the back and shoulders, after that; the arms and legs. The device must never be placed on the head, neck or chest. </string>
+
+    <string name="faq_q_12">Gel Pad Information</string>
+    <string name="faq_a_12">The Gel Pad use silver needle weaving and hydrogel technology, which have nearly 0 resistances. The chip assures a smooth output and uniform distribution of pressure and is made of a thin, soft material. The chip can be attached in any position that you like as it’s comfortable, safe, it doesn’t sting and it can be washed. It’s anti-allergy, anti-sweat and doesn’t change colour, making it suitable for any skin type. The average amount of washes a Gel Pad can go through is 50. When the Gel Pad is washed, dry it before use. If there isn’t enough viscosity on the Gel Pad, it can give off a prickling sensation, this meaning that the Gel Pad must be replaced.</string>
+
+    <string name="faq_q_13">Non-applicable persons</string>
+    <string name="faq_a_13">Children, pregnant women, and people who suffer heart conditions.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

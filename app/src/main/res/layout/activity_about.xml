@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/page_background" >
+    
+    <com.releasy.android.view.TopNavLayout 
+        android:id="@+id/topNavLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">    
+    </com.releasy.android.view.TopNavLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" 
+        android:padding="30dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/icon"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/versionNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:layout_marginTop="7.5dp"
+            android:textColor="@color/color_txt_999999"/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/versionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/updata_app"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_version"
+        />
+    
+    
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14sp"
+            android:textColor="@color/color_txt_999999"
+            android:gravity="center_horizontal"
+            android:text="@string/about_copyright"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/color_txt_999999"
+                android:gravity="center_horizontal"
+                android:text="@string/medisana_joint_development"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:drawableLeft="@drawable/medisana"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    
+
+    
+</LinearLayout>

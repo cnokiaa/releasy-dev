@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:gravity="center"
+    android:descendantFocusability= "blocksDescendants">
+    
+    <RelativeLayout 
+        android:layout_width="90dp"
+        android:layout_height="90dp">
+     
+    <ImageView 
+        android:id="@+id/picImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_acquiesce_img"
+        android:layout_centerInParent="true"
+        />
+    
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/releasy_room_text"
+        android:singleLine="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    </RelativeLayout>
+
+</RelativeLayout>

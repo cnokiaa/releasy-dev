@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/page_background" >
+    
+    
+    <com.releasy.android.view.TopNavLayout 
+        android:id="@+id/topNavLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">    
+    </com.releasy.android.view.TopNavLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/user_record_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/spread_line_chart"
+            android:layout_width="match_parent"
+            android:layout_height="250dip" />
+        
+        <TextView
+            android:id="@+id/use_details_txt"
+            android:layout_margin="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/use_details"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:textColor="@color/color_txt_CEE0E5"
+            />
+        
+        <ListView
+             android:id="@+id/listView"
+             android:layout_width="fill_parent"
+             android:layout_height="match_parent"
+             android:cacheColorHint="#000000"
+             android:divider="@color/cut_off_rule"
+             android:dividerHeight="1px"
+             android:fadingEdge="none"
+             android:scrollingCache="false"
+             android:listSelector="@drawable/bg_transparent"/>
+        
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/no_user_record_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/no_user_record_txt"
+        android:textSize="24sp"
+        android:textColor="@color/color_txt_848B99"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+
+</LinearLayout>

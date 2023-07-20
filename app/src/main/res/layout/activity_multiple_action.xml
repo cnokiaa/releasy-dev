@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:background="@color/page_background">
+    
+    <ImageView
+        android:id="@+id/action_bg_img"
+        android:layout_width="fill_parent"
+        android:layout_height="225dp"
+        android:src="@drawable/bg_1"
+        android:scaleType="centerCrop"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:orientation="vertical">
+
+    <RelativeLayout 
+        android:id="@+id/navLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        
+        <ImageView
+            android:id="@+id/tobNavLeftImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_nav_bar_back2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+        
+        <ImageView
+            android:id="@+id/tobNavRightImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/nav_music"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"/>
+        
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:gravity="center"/>
+    </RelativeLayout>
+    
+    <HorizontalScrollView  
+        android:id="@+id/tabs_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+        <RadioGroup
+            android:id="@+id/tabs_rg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/transparent"
+            android:gravity="center"/>
+    </HorizontalScrollView>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/white"/>
+    
+    
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="260dp"
+        android:layout_height="285dp"
+        android:layout_gravity="center_horizontal"
+        android:clipChildren="false"
+        android:overScrollMode="never" />
+    
+    <TextView 
+        android:id="@+id/timeTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/initial_time"
+        android:textSize="20sp"
+        android:textColor="@color/color_txt_7FAFC8"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/subtract_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_minus"
+            android:layout_margin="15dp"
+            android:visibility="gone"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="2.5dp"
+            android:paddingBottom="2.5dp"
+            android:gravity="center">
+            <com.releasy.android.view.PickerView
+                android:id="@+id/power_pv"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_updata"
+                android:textColor="@color/color_txt_9CB5BF"
+                android:textSize="12sp"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_plus"
+            android:layout_margin="15dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+    <ImageView
+        android:id="@+id/switchImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_start"
+        android:layout_margin="2.5dp"
+        android:layout_centerVertical="true"
+        /> 
+    </RelativeLayout>
+    
+    </LinearLayout>
+    
+</RelativeLayout>
+    

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:background="@color/white"
+              android:padding="10dp">
+          
+    <ImageView
+        android:id="@+id/picImg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        />
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp">
+        
+        <TextView android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_txt_374348"
+            android:textSize="16dp"
+            android:singleLine="true"/>
+        
+        <TextView android:id="@+id/artistTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_txt_a4a4a4"
+            android:textSize="14dp"
+            android:singleLine="true"/>
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/checkedImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/ic_finish"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+   
+</LinearLayout>

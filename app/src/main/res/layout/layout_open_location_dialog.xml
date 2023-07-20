@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:gravity="top">
+    
+    <LinearLayout
+        android:id="@+id/dialogLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:id="@+id/infoLayout"
+            android:layout_width="300dp"
+            android:layout_height="420dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_share_dialog">
+            <TextView
+                android:id="@+id/msgTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/gps_permission_msg"
+                android:textColor="@color/color_txt_e37600"
+                android:gravity="left"
+                />
+            <ImageView
+                android:id="@+id/msgPic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_open_location_e"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                />
+            
+        </LinearLayout>
+            
+        <Button
+             android:id="@+id/positiveBtn"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="18sp"
+             android:text="@string/confirm"
+             android:background="@drawable/btn_share"
+             android:textColor="@color/white"
+             android:gravity="center"
+            />
+        
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/closeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_share_close"
+        />
+
+</FrameLayout>

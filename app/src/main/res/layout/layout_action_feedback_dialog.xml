@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:gravity="top">
+    
+    <RelativeLayout
+        android:id="@+id/dialogLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        
+        <LinearLayout
+            android:id="@+id/infoLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_share_dialog"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/feedbackIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_share_good"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:id="@+id/feedbackTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/color_txt_e37600"
+                />
+            <EditText
+                android:id="@+id/feedbackEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:textColor="@color/color_txt_e37600"
+                android:layout_margin="10dp"
+                android:visibility="gone"
+                />
+            <!-- <TextView
+                android:id="@+id/shareContentTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/color_txt_7f7f7f"
+                /> -->
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/optionsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_share_normal"
+            android:layout_below="@+id/infoLayout">
+            <Button
+                android:id="@+id/goodBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="赞"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/badBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="吐槽"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+        </LinearLayout>
+            
+        <Button
+             android:id="@+id/seedBtn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="18sp"
+             android:text="发送"
+             android:background="@drawable/btn_share"
+             android:textColor="@color/white"
+             android:gravity="center"
+             android:layout_below="@+id/infoLayout"
+             android:visibility="gone"
+            />
+        
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/closeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_share_close"
+        />
+
+</FrameLayout>
